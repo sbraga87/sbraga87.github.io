@@ -1,5 +1,4 @@
-FROM ubuntu
-EXPOSE 80
-Copy web .
-CMD ["nginx","-g","daemon off;"]
+  
+FROM nginx:alpine
+COPY ./web/ /usr/share/nginx/html
 
