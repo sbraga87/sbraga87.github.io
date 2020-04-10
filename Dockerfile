@@ -1,7 +1,7 @@
 FROM ubuntu
   
 
-COPY index.html .
+COPY  sbraga87/sbweb
 
 EXPOSE 80
 
