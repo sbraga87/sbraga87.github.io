@@ -1,4 +1,4 @@
   
 FROM nginx:alpine
-COPY ./web/ /usr/share/nginx/html
+COPY ./sbweb/ /usr/share/nginx/html
 
