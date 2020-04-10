@@ -1,8 +1,2 @@
-FROM ubuntu
-  
-
-COPY  sbraga87/sbweb
-
-EXPOSE 80
-
-CMD ["nginx","-g","daemon off;"]
+FROM nginx:alpine
+COPY ./web/ /usr/share/nginx/html
