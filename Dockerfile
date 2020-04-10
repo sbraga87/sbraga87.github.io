@@ -1,2 +1,4 @@
-FROM nginx:alpine
-COPY ./web/ /usr/share/nginx/html
+FROM ubuntu
+EXPOSE 80
+CMD ["nginx","-g","daemon off;"]
+
